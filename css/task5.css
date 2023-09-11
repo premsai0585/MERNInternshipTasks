@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table,th,td{
+    border:1px solid black;
+    padding: 0;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 100%;
+}
+
+td{
+    width:200px;
+}
+
+.extend{
+    width:400px;
+}
+
+textarea{
+    height: 100%;
+    width:100%;
+}
+
+label, input{
+    display: inline-block;
+}
+
+.cb{
+    width:5%;
+}

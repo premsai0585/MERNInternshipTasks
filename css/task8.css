@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+table, th, tr, td {
+    border-collapse: collapse;
+    /* border: none; */
+}
+
+th{
+    text-align: start;
+}
+
+table{
+    /* border:1px solid grey; */
+    width:800px;
+    column-gap: 0;
+}
+tr{
+    height:50px;
+    font-size: 20px;
+}
+
+td, th {
+    padding-left: 10px;
+}
+
+.dark{
+    background-color: #E8E8EA;
+}

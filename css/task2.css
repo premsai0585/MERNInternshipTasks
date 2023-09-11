@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    padding-top: 10px;
+    padding-right: 10px;
+    border:1px solid black;
+}
+
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    padding-left: 20px;
+    margin-top:10px;
+}
